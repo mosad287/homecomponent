@@ -1,6 +1,6 @@
 import { Spinner } from "flowbite-react";
 import useGetCategories from "../../custom/useGetCategories";
-import MainCatigorie from "./mainCategorie";
+import MainCatigorie from "./MainCategorie";
 
 function Categories() {
   const { isLoading, isError, error, categories } = useGetCategories();
