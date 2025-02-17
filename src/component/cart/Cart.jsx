@@ -1,5 +1,5 @@
 import axios from "axios";
-import MainCart from "./mainCart";
+import MainCart from "./MainCart";
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "../../context/cart/CartContext";
 import { LoginContext } from "../../context/login/LoginContext";
